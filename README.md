@@ -1,5 +1,4 @@
 # ReadMe-Generator
-This application will create a README file using only the command line.
 
 ## Description
 
@@ -15,7 +14,8 @@ This application utilizes node.js and its various packages to create the markdow
 
 ## Links
 
-Working video link will be provided in Canvas.
+Working video link will be provided in Canvas and below:
+https://drive.google.com/file/d/1YrBnWjjMVj6vHONCfTAZohvRIH58oGFe/view
 
 ## Screenshot of Website
 

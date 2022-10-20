@@ -1,10 +1,10 @@
-# ReadME Generator
+# README Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This project is meant to create a professional README Markdown file using command line prompts
+This project is meant to provide an easy and efficient way to create a markdown README file.
 
 ## Table of Contents
 
@@ -21,13 +21,13 @@ N/A
 
 ## Usage
 
-Usage is meant to be for anyone who wants to create a clean and professional looking README File
+Usage for this project is meant for the user to be able to create a professional README file using the command line prompts.
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    
 https://opensource.org/licenses/MIT 
-
+    
 
 ## Contributing
 

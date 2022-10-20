@@ -1,7 +1,7 @@
 // Packages required for application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const mdGenerate = require("./mdGenerate");
+const generateMarkdown = require("./generateMarkdown");
 
 // Array of Questions from Command Line
 const questions = [
@@ -77,12 +77,12 @@ const questions = [
 ];
 
 // function to create the README Markdown file
-function writeFile(fileName, data) {
+function writeToFile(fileName, data) {
     fs.writeFile("./assets/README.md", generateMarkdown(data), function(err) {
         if (err) {
             return console.log(err);
         }
-        console.log("Success!");
+        console.log("Success ReadME Created!");
     });
 }
 
@@ -91,7 +91,7 @@ function init() {
     inquirer.prompt(questions)
     .then(function(answer) {
         const fileName = answer.title.split(' ').join('') + '.md';
-        writeFile(fileName, answer);
+        writeToFile(fileName, answer);
     });
 }
 

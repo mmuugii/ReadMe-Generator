@@ -34,51 +34,44 @@ function licenseSection(license) {
     if (license.length === 0) {
         return ""
     } else {
-        return `## License ${licenseBadgeLogo(license)} ${licenseLink(license)}`
+        return `## License
+    ${licenseBadgeLogo(license)}
+    
+    ${licenseLink(license)} 
+    `
     }
 }
 
 // function to actually generate markdown
+// 
+
 function generateMarkdown(data) {
     return `# ${data.title}
-    
     ${licenseBadgeLogo(data.license)}
-    
     ## Description
-    
     ${data.description}
-    
     ## Table of Contents
-    
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
     * [Contributing](#contributing)
     * [Tests](#tests)
     * [Questions](#questions)
-    
     ## Installation
-    
     ${data.installation}
-    
     ## Usage
-    
     ${data.usage}
-    
     ${licenseSection(data.license)}
-    
     ## Contributing
     
     ${data.contributing}
     
     ## Tests
-    
     ${data.testInstr}
-    
     ## Questions
-    GitHub: [${data.username}](https://github.com/${data.username}) <br>
-    Email: ${data.email}
-    `
+    My GitHub: [${data.username}](https://github.com/${data.username}) <br>
+    Email me: ${data.email}
+  `
 }
 
 module.exports = generateMarkdown;

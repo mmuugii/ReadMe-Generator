@@ -1,5 +1,23 @@
 {
   "dependencies": {
-    "inquirer": "^9.1.4"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "name": "readme-generator",
+  "description": "This application will create a README file using only the command line.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmuugii/ReadMe-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmuugii/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/mmuugii/ReadMe-Generator#readme"
 }

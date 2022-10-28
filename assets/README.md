@@ -1,10 +1,10 @@
-# README Generator
+# n/a
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This project is meant to provide an easy and efficient way to create a markdown README file.
+n/a
 
 ## Table of Contents
 
@@ -17,27 +17,23 @@ This project is meant to provide an easy and efficient way to create a markdown 
 
 ## Installation
 
-N/A
+n/a
 
 ## Usage
 
-Usage for this project is meant for the user to be able to create a professional README file using the command line prompts.
-
+n/a
 ## License
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-    
-https://opensource.org/licenses/MIT 
-    
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
-N/A
+n/a
 
 ## Tests
 
-N/A
+n/a
 
 ## Questions
 
-My GitHub: [mmuugii](https://github.com/mmuugii) <br>
-Email me: mmunkhbold94@gmail.com
+My GitHub: [n/a](https://github.com/n/a) <br>
+Email me: n/a

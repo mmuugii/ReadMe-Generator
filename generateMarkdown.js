@@ -35,10 +35,7 @@ function licenseSection(license) {
         return ""
     } else {
         return `## License
-    ${licenseBadgeLogo(license)}
-    
-    ${licenseLink(license)} 
-    `
+${licenseBadgeLogo(license)}`
     }
 }
 
@@ -70,7 +67,6 @@ ${data.installation}
 ## Usage
 
 ${data.usage}
-
 ${licenseSection(data.license)}
 
 ## Contributing
